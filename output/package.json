@@ -1,11 +1,12 @@
 {
   "scripts": {
     "dev": "webpack --config webpack.config.js",
+    "build:var": "webpack --config webpack.config.var.js",
     "build:amd": "webpack --config webpack.config.amd.js",
     "build:cmd": "webpack --config webpack.config.cmd.js",
     "build:umd": "webpack --config webpack.config.umd.js",
     "build:cmd2": "webpack --config webpack.config.cmd2.js",
-    "build:all": "npm run build:amd; npm run build:cmd; npm run build:umd; npm run build:cmd2;"
+    "build:all": "npm run build:var; npm run build:amd; npm run build:cmd; npm run build:umd; npm run build:cmd2;"
   },
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",

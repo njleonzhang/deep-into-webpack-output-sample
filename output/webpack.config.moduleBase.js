@@ -5,7 +5,7 @@ exports.default = {
   mode: 'development',
   output: {
     path: path.resolve(__dirname, './dist/'),
-    library: 'Const',
+    library: 'MyLibrary',
     // libraryExport: 'default'
   },
   devtool: 'cheap-module'

@@ -1,4 +1,4 @@
-exports["MyLibrary"] =
+var MyLibrary =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
