@@ -2,7 +2,7 @@ import Const1, { name as name1 } from '../output/dist/index.cmd.js'
 import Const2, { name as name2 } from '../output/dist/index.umd.js'
 import Const3, { name as name3 } from '../output/dist/index.amd.js'
 import Const4, { name as name4 } from '../output/dist/index.cmd2.js'
-import Const5, { name as name5 } from '../output/dist/index.umd2.js'
+import Const5, { name as name5 } from '../output/dist/index.var.js'
 
 window.Const1 = Const1
 window.Const2 = Const2
