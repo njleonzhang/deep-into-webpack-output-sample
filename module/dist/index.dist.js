@@ -176,7 +176,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./const.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -196,24 +196,6 @@ let name = 'leon'
 function print() { console.log('print: ' + name) }
 
 
-/***/ }),
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./const */ "./const.js");
-
-
-console.log(_const__WEBPACK_IMPORTED_MODULE_0__["name"])
-Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
-
-
 /***/ })
 
 /******/ })}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -228,7 +210,7 @@ Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-exports["Const"] =
+exports["MyLibrary"] =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -312,7 +294,7 @@ exports["Const"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./const.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -330,24 +312,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return print; });
 let name = 'leon'
 function print() { console.log('print: ' + name) }
-
-
-/***/ }),
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./const */ "./const.js");
-
-
-console.log(_const__WEBPACK_IMPORTED_MODULE_0__["name"])
-Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
 
 
 /***/ })
@@ -447,7 +411,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./const.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -465,24 +429,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return print; });
 let name = 'leon'
 function print() { console.log('print: ' + name) }
-
-
-/***/ }),
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./const */ "./const.js");
-
-
-console.log(_const__WEBPACK_IMPORTED_MODULE_0__["name"])
-Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
 
 
 /***/ })
@@ -586,7 +532,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./const.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -606,24 +552,6 @@ let name = 'leon'
 function print() { console.log('print: ' + name) }
 
 
-/***/ }),
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./const */ "./const.js");
-
-
-console.log(_const__WEBPACK_IMPORTED_MODULE_0__["name"])
-Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
-
-
 /***/ })
 
 /******/ });
@@ -631,19 +559,15 @@ Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
 
 /***/ }),
 
-/***/ "../output/dist/index.umd2.js":
-/*!************************************!*\
-  !*** ../output/dist/index.umd2.js ***!
-  \************************************/
+/***/ "../output/dist/index.var.js":
+/*!***********************************!*\
+  !*** ../output/dist/index.var.js ***!
+  \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(true)
-		module.exports = factory();
-	else {}
-})(window, function() {
-return /******/ (function(modules) { // webpackBootstrap
+var MyLibrary =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -726,7 +650,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./const.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -746,28 +670,9 @@ let name = 'leon'
 function print() { console.log('print: ' + name) }
 
 
-/***/ }),
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _const__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./const */ "./const.js");
-
-
-console.log(_const__WEBPACK_IMPORTED_MODULE_0__["name"])
-Object(_const__WEBPACK_IMPORTED_MODULE_0__["default"])()
-
-
 /***/ })
 
 /******/ });
-});
 
 /***/ }),
 
@@ -788,15 +693,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _output_dist_index_amd_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_output_dist_index_amd_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../output/dist/index.cmd2.js */ "../output/dist/index.cmd2.js");
 /* harmony import */ var _output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _output_dist_index_umd2_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../output/dist/index.umd2.js */ "../output/dist/index.umd2.js");
-/* harmony import */ var _output_dist_index_umd2_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_output_dist_index_umd2_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _output_dist_index_var_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../output/dist/index.var.js */ "../output/dist/index.var.js");
+/* harmony import */ var _output_dist_index_var_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_output_dist_index_var_js__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
 
 
 
-console.log(_output_dist_index_cmd_js__WEBPACK_IMPORTED_MODULE_0___default.a, _output_dist_index_umd_js__WEBPACK_IMPORTED_MODULE_1___default.a, _output_dist_index_amd_js__WEBPACK_IMPORTED_MODULE_2___default.a, _output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3___default.a, _output_dist_index_umd2_js__WEBPACK_IMPORTED_MODULE_4___default.a)
+window.Const1 = _output_dist_index_cmd_js__WEBPACK_IMPORTED_MODULE_0___default.a
+window.Const2 = _output_dist_index_umd_js__WEBPACK_IMPORTED_MODULE_1___default.a
+window.Const3 = _output_dist_index_amd_js__WEBPACK_IMPORTED_MODULE_2___default.a
+window.Const4 = _output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3___default.a
+window.Const5 = _output_dist_index_var_js__WEBPACK_IMPORTED_MODULE_4___default.a
+
+console.log(_output_dist_index_cmd_js__WEBPACK_IMPORTED_MODULE_0___default.a, _output_dist_index_umd_js__WEBPACK_IMPORTED_MODULE_1___default.a, _output_dist_index_amd_js__WEBPACK_IMPORTED_MODULE_2___default.a, _output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3___default.a, _output_dist_index_var_js__WEBPACK_IMPORTED_MODULE_4___default.a)
+console.log(_output_dist_index_cmd_js__WEBPACK_IMPORTED_MODULE_0__["name"], _output_dist_index_umd_js__WEBPACK_IMPORTED_MODULE_1__["name"], _output_dist_index_amd_js__WEBPACK_IMPORTED_MODULE_2__["name"], _output_dist_index_cmd2_js__WEBPACK_IMPORTED_MODULE_3__["name"], _output_dist_index_var_js__WEBPACK_IMPORTED_MODULE_4__["name"])
 
 
 /***/ })
