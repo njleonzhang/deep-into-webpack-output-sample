@@ -202,13 +202,35 @@
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ "./test.js");
+
+
+console.log(_test__WEBPACK_IMPORTED_MODULE_0__["testStr"])
 
 __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./const */ "./const.js")).then(Component => {
   Component.default()
   console.log(Component, Component.name)
 })
+
+
+/***/ }),
+
+/***/ "./test.js":
+/*!*****************!*\
+  !*** ./test.js ***!
+  \*****************/
+/*! exports provided: testStr */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "testStr", function() { return testStr; });
+let testStr = 'I am test'
 
 
 /***/ })
