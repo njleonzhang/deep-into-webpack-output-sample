@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + ".bundle.js"
+/******/ 		return __webpack_require__.p + "" + ({"const":"const"}[chunkId]||chunkId) + ".bundle.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -212,7 +212,7 @@ __webpack_require__.r(__webpack_exports__);
 
 console.log(_test__WEBPACK_IMPORTED_MODULE_0__["testStr"])
 
-__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./const */ "./const.js")).then(Component => {
+__webpack_require__.e(/*! import() | const */ "const").then(__webpack_require__.bind(null, /*! ./const */ "./const.js")).then(Component => {
   Component.default()
   console.log(Component, Component.name)
 })
